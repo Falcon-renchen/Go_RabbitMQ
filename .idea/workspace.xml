@@ -39,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -116,6 +117,10 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="607" y="59" key="CommitChangelistDialog2" timestamp="1615015030945">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="607" y="59" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615015030945" />
     <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1615004724067">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
