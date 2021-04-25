@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c48377e-fc68-4d41-978d-035a13651b71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq03/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq03/mq/rabbitmq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq04/AppInit/MQInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq04/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq04/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq05_demo/AppInit/MQInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq05_demo/Lib/MQ.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq05_demo/UserReg/Models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq05_demo/UserReg/cmd/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_rabbitMQ/1.docker安装.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_rabbitMQ/2.进入并运行.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq01/consumer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq01/consumer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq01/productor/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq01/productor/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq02/consumer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq02/consumer/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1pLE84cP8mxof1A68QwRutxpq3n" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,26 +61,23 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq04/AppInit" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rabbitmq05_demo/UserReg" />
+      <recent name="$PROJECT_DIR$/docker" />
       <recent name="$PROJECT_DIR$/rabbitmq02/productor" />
       <recent name="$PROJECT_DIR$/rabbitmq01/producter" />
       <recent name="$PROJECT_DIR$/rabbitmq01" />
-      <recent name="$PROJECT_DIR$/docker_rabbitMQ" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rabbitmq04/AppInit" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build Go_RabbitMQ/consumer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go_RabbitMQ" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/consumer/main.go" />
-      <package value="Go_RabbitMQ/consumer" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build server.go">
     <configuration name="go build Go_RabbitMQ/rabbitmq02/consumer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_RabbitMQ" />
       <working_directory value="$PROJECT_DIR$" />
@@ -75,12 +87,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Go_RabbitMQ/rabbitmq02/productor" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Go_RabbitMQ/rabbitmq04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_RabbitMQ" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/rabbitmq02/productor/main.go" />
-      <package value="Go_RabbitMQ/rabbitmq02/productor" />
+      <filePath value="$PROJECT_DIR$/rabbitmq04/main.go" />
+      <package value="Go_RabbitMQ/rabbitmq04" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Go_RabbitMQ/rabbitmq04/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_RabbitMQ" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/rabbitmq04/client/client.go" />
+      <package value="Go_RabbitMQ/rabbitmq04/client" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -92,51 +113,65 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_RabbitMQ" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/consumer/main.go" />
+      <filePath value="$PROJECT_DIR$/rabbitmq05_demo/UserReg/cmd/server.go" />
+      <package value="Go_RabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build Go_RabbitMQ/rabbitmq04/client" />
+        <item itemvalue="Go Build.go build Go_RabbitMQ/rabbitmq04" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build Go_RabbitMQ/rabbitmq02/consumer" />
-        <item itemvalue="Go Build.go build Go_RabbitMQ/rabbitmq02/productor" />
-        <item itemvalue="Go Build.go build Go_RabbitMQ/consumer" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rabbitmq with go" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq with go" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="840" y="199" key="#Custom_Plugin_Repositories" timestamp="1619362409946">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="840" y="199" key="#Custom_Plugin_Repositories/0.23.1920.1057@0.23.1920.1057" timestamp="1619362409946" />
     <state x="607" y="59" key="CommitChangelistDialog2" timestamp="1615015030945">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="607" y="59" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615015030945" />
-    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1615004724067">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1023" height="187" key="GridCell.Tab.0.bottom" timestamp="1619367280289">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615004724067" />
-    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1615004724066">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1023" height="187" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1619367280289" />
+    <state width="1023" height="187" key="GridCell.Tab.0.center" timestamp="1619367280288">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1615004724066">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1023" height="187" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1619367280288" />
+    <state width="1023" height="187" key="GridCell.Tab.0.left" timestamp="1619367280288">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1615004724066">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1023" height="187" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1619367280288" />
+    <state width="1023" height="187" key="GridCell.Tab.0.right" timestamp="1619367280289">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
+    <state width="1023" height="187" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1619367280289" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1614957565404">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -153,16 +188,13 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1614957565404" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/rabbitmq01/consumer/main.go</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="790" y="235" key="SettingsEditor" timestamp="1619364114494">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="790" y="235" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1619364114494" />
+    <state x="674" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619367284756">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="674" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1619367284756" />
   </component>
 </project>

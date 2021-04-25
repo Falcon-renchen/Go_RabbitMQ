@@ -18,7 +18,6 @@ func main() {
 
 	fmt.Println("Successfully Connected To our RabbitMQ Instance")
 
-
 	//处理大量的amqp，
 	ch, err := conn.Channel()
 	if err != nil {
@@ -28,7 +27,7 @@ func main() {
 	defer ch.Close()
 
 	//在rabbitmq上声明一个队列，用来保存消息并且传递给消费者
-	q, err := ch.QueueDeclare("TestQueue",false,false,false,false,nil)
+	q, err := ch.QueueDeclare("TestQueue", false, false, false, false, nil)
 	if err != nil {
 		fmt.Println(err)
 		panic(err)
@@ -46,7 +45,7 @@ func main() {
 
 	msgs, err := ch.Consume(
 		q.Name,
-		"",
+		"c1",
 		true, //关闭消息自动确认
 		false,
 		false,
