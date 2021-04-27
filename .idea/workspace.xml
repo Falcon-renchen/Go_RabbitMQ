@@ -2,23 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c48377e-fc68-4d41-978d-035a13651b71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker/1.docker pull.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/2.mq exec as single point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/3.show log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq05_demo/z -run step &amp;&amp; result/1.web run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq05_demo/z -run step &amp;&amp; result/2.web run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq05_demo/z -run step &amp;&amp; result/3.result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/AppInit/MQInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/Lib/MQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/Lib/QueueInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/UserReg/Models/UserModel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/UserReg/cmd/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/UserReg/cmd/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/z-run product &amp;&amp; consumer/consumer c1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/z-run product &amp;&amp; consumer/consumer c2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq06_demo/z-run product &amp;&amp; consumer/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/AppInit/MQInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/Lib/MQ.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/Lib/QueueInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/UserReg/Models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/UserReg/cmd/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/UserReg/cmd/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/AppInit/MQInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/Lib/MQ.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/Lib/QueueInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/UserReg/Models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/UserReg/cmd/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/UserReg/cmd/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/AppInit/MQInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/Lib/MQ.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/Lib/QueueInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/UserReg/Models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/UserReg/cmd/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/UserReg/cmd/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/DBInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/MQInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/Helper/DBHelper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/Lib/MQ.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/Lib/QueueInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/Models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/user_notify.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql/insert01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql/insert02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq05_demo/Lib/MQ.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq05_demo/Lib/MQ.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq06_demo/UserReg/cmd/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq06_demo/UserReg/cmd/client.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,25 +82,36 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rabbitmq04/AppInit" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql" />
+      <recent name="$PROJECT_DIR$/rabbitmq10_demo" />
       <recent name="$PROJECT_DIR$/rabbitmq06_demo/z-run product &amp;&amp; consumer" />
       <recent name="$PROJECT_DIR$/rabbitmq06_demo" />
       <recent name="$PROJECT_DIR$/rabbitmq05_demo/UserReg" />
-      <recent name="$PROJECT_DIR$/docker" />
-      <recent name="$PROJECT_DIR$/rabbitmq02/productor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/rabbitmq08_demo" />
+      <recent name="$PROJECT_DIR$/rabbitmq07_demo" />
+      <recent name="$PROJECT_DIR$/rabbitmq04/AppInit" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build client.go">
+  <component name="RunManager" selected="Go Build.go build Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd">
     <configuration name="go build Go_RabbitMQ" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_RabbitMQ" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="Go_RabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_RabbitMQ" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/rabbitmq09_demo/UserReg/cmd/server.go" />
+      <package value="Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -115,22 +142,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go_RabbitMQ" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/rabbitmq05_demo/UserReg/cmd/server.go" />
-      <package value="Go_RabbitMQ" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build client.go" />
+        <item itemvalue="Go Build.go build Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd" />
         <item itemvalue="Go Build.go build server.go (1)" />
+        <item itemvalue="Go Build.go build client.go" />
         <item itemvalue="Go Build.go build Go_RabbitMQ" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build server.go" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +168,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="840" y="199" key="#Custom_Plugin_Repositories/0.23.1920.1057@0.23.1920.1057" timestamp="1619362409946" />
+    <state x="508" y="194" key="#go_build_Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd" timestamp="1619502896567">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="508" y="194" key="#go_build_Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd/0.23.1920.1057@0.23.1920.1057" timestamp="1619502896567" />
     <state x="1158" y="194" key="#go_build_MQ.go" timestamp="1619405047773">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -158,31 +180,31 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1173" y="194" key="#go_build_server.go_(1)/0.23.1920.1057@0.23.1920.1057" timestamp="1619408661352" />
-    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1619367293831">
+    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1619411685311">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="607" y="59" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615015030945" />
-    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1619367293831" />
-    <state width="886" height="309" key="GridCell.Tab.0.bottom" timestamp="1619410140777">
+    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1619411685311" />
+    <state width="1495" height="309" key="GridCell.Tab.0.bottom" timestamp="1619507238217">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615004724067" />
-    <state width="886" height="309" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1619410140777" />
-    <state width="886" height="309" key="GridCell.Tab.0.center" timestamp="1619410140776">
+    <state width="1495" height="309" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1619507238217" />
+    <state width="1495" height="309" key="GridCell.Tab.0.center" timestamp="1619507238217">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="886" height="309" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1619410140776" />
-    <state width="886" height="309" key="GridCell.Tab.0.left" timestamp="1619410140776">
+    <state width="1495" height="309" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1619507238217" />
+    <state width="1495" height="309" key="GridCell.Tab.0.left" timestamp="1619507238216">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="886" height="309" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1619410140776" />
-    <state width="886" height="309" key="GridCell.Tab.0.right" timestamp="1619410140776">
+    <state width="1495" height="309" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1619507238216" />
+    <state width="1495" height="309" key="GridCell.Tab.0.right" timestamp="1619507238217">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="886" height="309" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1619410140776" />
+    <state width="1495" height="309" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1619507238217" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1614957565404">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
