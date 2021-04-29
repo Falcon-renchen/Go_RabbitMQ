@@ -2,39 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c48377e-fc68-4d41-978d-035a13651b71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/AppInit/MQInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/Lib/MQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/Lib/QueueInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/UserReg/Models/UserModel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/UserReg/cmd/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq07_demo/UserReg/cmd/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/AppInit/MQInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/Lib/MQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/Lib/QueueInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/UserReg/Models/UserModel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/UserReg/cmd/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq08_demo/UserReg/cmd/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/AppInit/MQInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/Lib/MQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/Lib/QueueInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/UserReg/Models/UserModel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/UserReg/cmd/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq09_demo/UserReg/cmd/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/DBInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/MQInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/Helper/DBHelper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/Lib/MQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/Lib/QueueInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/Models/UserModel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/user_notify.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql/insert01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql/insert02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/DBInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/MQInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Helper/DBHelper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Lib/MQ.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Lib/QueueInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/DBInit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/Middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/TransHelper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/TransModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/a/check.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/a/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/b/check.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/b/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/UserReg/Models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/UserReg/cmd/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/UserReg/cmd/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq06_demo/UserReg/cmd/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq06_demo/UserReg/cmd/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,22 +65,23 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq11_demo" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rabbitmq11_demo" />
+      <recent name="$PROJECT_DIR$/rabbitmq11_demo/Trans/a" />
+      <recent name="$PROJECT_DIR$/rabbitmq11_demo/Trans" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/rabbitmq08_demo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql" />
       <recent name="$PROJECT_DIR$/rabbitmq10_demo" />
       <recent name="$PROJECT_DIR$/rabbitmq06_demo/z-run product &amp;&amp; consumer" />
       <recent name="$PROJECT_DIR$/rabbitmq06_demo" />
       <recent name="$PROJECT_DIR$/rabbitmq05_demo/UserReg" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/rabbitmq08_demo" />
-      <recent name="$PROJECT_DIR$/rabbitmq07_demo" />
-      <recent name="$PROJECT_DIR$/rabbitmq04/AppInit" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd">
@@ -180,11 +168,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1173" y="194" key="#go_build_server.go_(1)/0.23.1920.1057@0.23.1920.1057" timestamp="1619408661352" />
-    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1619411685311">
+    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1619507300769">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="607" y="59" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615015030945" />
-    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1619411685311" />
+    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1619507300769" />
     <state width="1495" height="309" key="GridCell.Tab.0.bottom" timestamp="1619507238217">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

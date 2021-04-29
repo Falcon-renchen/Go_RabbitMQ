@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Go_RabbitMQ/rabbitmq10_demo/Lib"
-	Lib2 "Go_RabbitMQ/rabbitmq10_demo/Lib"
-	"Go_RabbitMQ/rabbitmq10_demo/UserReg/Models"
+	"Go_RabbitMQ/rabbitmq11_demo/Lib"
+	Lib2 "Go_RabbitMQ/rabbitmq11_demo/Lib"
+	"Go_RabbitMQ/rabbitmq11_demo/UserReg/Models"
 	"github.com/gin-gonic/gin"
 	"log"
 	"strconv"
