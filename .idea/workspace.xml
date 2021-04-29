@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c48377e-fc68-4d41-978d-035a13651b71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/DBInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/MQInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Helper/DBHelper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Lib/MQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Lib/QueueInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/DBInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/Middleware.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/TransHelper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/TransModel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/a/check.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/a/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/b/check.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/b/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/UserReg/Models/UserModel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/UserReg/cmd/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/UserReg/cmd/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq10_demo/UserReg/cmd/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,11 +149,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1173" y="194" key="#go_build_server.go_(1)/0.23.1920.1057@0.23.1920.1057" timestamp="1619408661352" />
-    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1619507300769">
+    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1619670276456">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="607" y="59" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615015030945" />
-    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1619507300769" />
+    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1619670276456" />
     <state width="1495" height="309" key="GridCell.Tab.0.bottom" timestamp="1619507238217">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
