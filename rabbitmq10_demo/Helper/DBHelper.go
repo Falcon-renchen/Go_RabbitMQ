@@ -24,7 +24,7 @@ func SetNotify(user_id string, max_retry int) (r int) {
 		log.Println("fetch notify error:", err)
 		return
 	}
-	rowAffected, err := ret.RowsAffected() //受影响的行>0 代表继续要发送
+	rowAffected, err := ret.RowsAffected() //受影响的行>0 代表继续要发送   =0 代表到了最大次数，不再发送
 	if err != nil {
 		log.Println("get row error:", err)
 		return

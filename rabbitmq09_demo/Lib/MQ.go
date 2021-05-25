@@ -49,6 +49,21 @@ func (this *MQ) DecQueueAndBind(queues string, key string, exchange string) erro
 	return nil
 }
 
+func (this *MQ) DecQueueAndBindWithArgs(name string, s string, name2 string, args map[string]interface{}) error {
+	qList := strings.Split(name, ",")
+	for _, queue := range qList {
+		q, err := this.Channel.QueueDeclare(queue, false, false, false, false, args)
+		if err != nil {
+			return err
+		}
+		err = this.Channel.QueueBind(q.Name, s, name2, false, args)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
 func (this *MQ) NotifyReturn() {
 	//如果消息没有正常进入队列，
 	this.notifyReturn = this.Channel.NotifyReturn(make(chan amqp.Return))
@@ -71,7 +86,6 @@ func (this *MQ) SetConfirm() {
 	}
 	this.notifyConfirm = this.Channel.NotifyPublish(make(chan amqp.Confirmation))
 
-	this.ListenConfirm() //可以使用协程
 }
 
 func (this *MQ) ListenConfirm() {
@@ -106,6 +120,7 @@ func (this *MQ) SendMessage(key string, exchange string, message string) error {
 	return err
 }
 
+//发送延迟消息
 func (this *MQ) SendDelayMessage(key string, exchange string, message string, delay int) error {
 	err := this.Channel.Publish(exchange, key, true, false,
 		amqp.Publishing{

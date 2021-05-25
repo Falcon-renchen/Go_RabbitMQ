@@ -28,7 +28,7 @@ func main() {
 				mq.ListenConfirm()
 				//defer mq.Channel.Close()
 				if err != nil {
-					log.Println(err)
+					log.Println("消息发送失败", err)
 				}
 			}
 			context.JSON(200, gin.H{

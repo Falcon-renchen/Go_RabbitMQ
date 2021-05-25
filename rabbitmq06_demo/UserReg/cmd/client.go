@@ -9,6 +9,7 @@ import (
 	"time"
 )
 
+//c是消费者的名称
 func SendMail(msgs <-chan amqp.Delivery, c string) {
 	for msg := range msgs {
 		{
@@ -24,7 +25,7 @@ func SendMail(msgs <-chan amqp.Delivery, c string) {
 			continue
 		}
 
-		//没有这段代码，说明c1，c2正常，先发给c1，然后发给c2，默认为轮询方式
+		//没有这段代码，c1，c2正常，先发给c1，然后发给c2，默认为轮询方式
 		//if c == "c1" { //模拟c1出了问题
 		//	msg.Reject(true) //重新入列		//c1出了问题，会重新入列
 		//	continue

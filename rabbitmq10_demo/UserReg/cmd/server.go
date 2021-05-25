@@ -2,7 +2,6 @@ package main
 
 import (
 	"Go_RabbitMQ/rabbitmq10_demo/Lib"
-	Lib2 "Go_RabbitMQ/rabbitmq10_demo/Lib"
 	"Go_RabbitMQ/rabbitmq10_demo/UserReg/Models"
 	"github.com/gin-gonic/gin"
 	"log"
@@ -28,7 +27,7 @@ func main() {
 				//err := mq.SendMessage(Lib.ROUTER_KEY_USERREG, Lib.EXCHANGE_USER, strconv.Itoa(userModel.UserId))
 				//延迟队列，，3s
 				//client 延迟3s收到邮件
-				err := mq.SendDelayMessage(Lib.ROUTER_KEY_USERREG, Lib.EXCHANGE_USER_DELAY, strconv.Itoa(userModel.UserId), 3000)
+				err := mq.SendDelayMessage(Lib.ROUTER_KEY_USERREG, Lib.EXCHANGE_USER_DELAY, strconv.Itoa(userModel.UserId), 1000)
 				mq.ListenConfirm()
 				//defer mq.Channel.Close()
 				if err != nil {
@@ -54,7 +53,7 @@ func main() {
 			c <- err
 		}
 
-		err = Lib2.UserDelayInit() //初始化用户延迟队列
+		err = Lib.UserDelayInit() //初始化用户延迟队列
 		if err != nil {
 			c <- err
 		}

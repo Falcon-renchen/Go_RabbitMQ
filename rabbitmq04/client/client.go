@@ -29,6 +29,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	//没有确认机制，，停掉之后会从unacked跳到ready，给其他消费者读取
 	for msg := range msgs {
 		fmt.Println(msg.DeliveryTag, string(msg.Body))
 	}

@@ -67,6 +67,7 @@ func (this *MQ) SendMessage(key string, exchange string, message string) error {
 	)
 }
 
+//key 是消费者名称
 func (this *MQ) Consume(queue string, key string, callback func(<-chan amqp.Delivery, string)) {
 	msgs, err := this.Channel.Consume(queue, key, false, false, false, false, nil)
 	if err != nil {

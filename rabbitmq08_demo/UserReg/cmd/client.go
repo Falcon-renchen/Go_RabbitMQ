@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Go_RabbitMQ/rabbitmq06_demo/Lib"
+	"Go_RabbitMQ/rabbitmq08_demo/Lib"
 	"flag"
 	"fmt"
 	"github.com/streadway/amqp"

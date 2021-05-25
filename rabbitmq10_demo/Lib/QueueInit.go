@@ -37,7 +37,7 @@ func UserDelayInit() error {
 	if err != nil {
 		return fmt.Errorf("Exchange error")
 	}
-	qs := fmt.Sprintf("%s,%s", QUEUE_NEWUSER, QUEUE_NEWUSER_UNION)
+	qs := fmt.Sprintf("%s", QUEUE_NEWUSER)
 	err = mq.DecQueueAndBind(qs, ROUTER_KEY_USERREG, EXCHANGE_USER)
 	if err != nil {
 		return fmt.Errorf("Delay Queue Bind error", err)

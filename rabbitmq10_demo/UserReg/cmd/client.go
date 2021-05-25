@@ -18,9 +18,10 @@ func Send(c string, msg amqp.Delivery) {
 	isfail := true                  //这个标志代表假定 失败了---一直是失败的
 	delay := msg.Headers["x-delay"] //原来的延迟时间
 	if isfail {
+		//如果失败
 		r := Helper.SetNotify(userID, 5) //最大重试5次
 		if r > 0 {
-			newDelay := int(delay.(int32)) * 2 //每次收到消息 延迟时间*2 单位：毫秒
+			newDelay := int(delay.(int32)) * 3 //每次收到消息 延迟时间*3 单位：毫秒
 			err := myclient.SendDelayMessage(Lib.ROUTER_KEY_USERREG, Lib.EXCHANGE_USER_DELAY, userID, newDelay)
 			if err != nil {
 				log.Println(err)
@@ -44,7 +45,7 @@ func SendMail(msgs <-chan amqp.Delivery, c string) {
 
 }
 
-var myclient *Lib.MQ
+var myclient *Lib.MQ //暴露myclient
 
 func main() {
 	var c *string

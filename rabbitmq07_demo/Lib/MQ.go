@@ -1,7 +1,7 @@
 package Lib
 
 import (
-	"Go_RabbitMQ/rabbitmq06_demo/AppInit"
+	"Go_RabbitMQ/rabbitmq07_demo/AppInit"
 
 	"github.com/streadway/amqp"
 	"log"

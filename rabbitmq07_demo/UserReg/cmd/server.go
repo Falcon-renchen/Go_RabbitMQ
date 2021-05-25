@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Go_RabbitMQ/rabbitmq06_demo/Lib"
-	"Go_RabbitMQ/rabbitmq06_demo/UserReg/Models"
+	"Go_RabbitMQ/rabbitmq07_demo/Lib"
+	"Go_RabbitMQ/rabbitmq07_demo/UserReg/Models"
 	"github.com/gin-gonic/gin"
 	"log"
 	"strconv"

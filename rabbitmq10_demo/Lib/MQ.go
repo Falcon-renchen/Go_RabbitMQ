@@ -71,7 +71,6 @@ func (this *MQ) SetConfirm() {
 	}
 	this.notifyConfirm = this.Channel.NotifyPublish(make(chan amqp.Confirmation))
 
-	this.ListenConfirm() //可以使用协程
 }
 
 func (this *MQ) ListenConfirm() {

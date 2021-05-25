@@ -2,7 +2,6 @@ package main
 
 import (
 	"Go_RabbitMQ/rabbitmq09_demo/Lib"
-	Lib2 "Go_RabbitMQ/rabbitmq09_demo/Lib"
 	"Go_RabbitMQ/rabbitmq09_demo/UserReg/Models"
 	"github.com/gin-gonic/gin"
 	"log"
@@ -54,7 +53,7 @@ func main() {
 			c <- err
 		}
 
-		err = Lib2.UserDelayInit() //初始化用户延迟队列
+		err = Lib.UserDelayInit() //初始化用户延迟队列
 		if err != nil {
 			c <- err
 		}

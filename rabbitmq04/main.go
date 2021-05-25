@@ -17,6 +17,10 @@ func main() {
 	}
 	defer c.Close()
 
+	/**
+	ExchangeDeclare   使用默认的
+	*/
+
 	//队列创建成功
 	queue, err := c.QueueDeclare(
 		"test",
@@ -29,6 +33,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	//发布消息
 	err = c.Publish(
 		"",
 		queue.Name,
