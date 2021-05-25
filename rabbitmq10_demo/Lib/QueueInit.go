@@ -16,6 +16,7 @@ func UserInit() error {
 		return fmt.Errorf("Exchange error")
 	}
 	qs := fmt.Sprintf("%s,%s", QUEUE_NEWUSER, QUEUE_NEWUSER_UNION)
+	//qs := fmt.Sprintf("%s", QUEUE_NEWUSER)
 	err = mq.DecQueueAndBind(qs, ROUTER_KEY_USERREG, EXCHANGE_USER)
 	if err != nil {
 		return fmt.Errorf("Queue Bind error", err)
@@ -23,6 +24,7 @@ func UserInit() error {
 	return nil
 }
 
+//延迟队列
 func UserDelayInit() error {
 	mq := NewMQ()
 	if mq == nil {
@@ -31,14 +33,15 @@ func UserDelayInit() error {
 	defer mq.Channel.Close()
 
 	//申明交换机
-	err := mq.Channel.ExchangeDeclare(EXCHANGE_USER_DELAY, "x-delayed-message",
-		false, false, false, false,
-		map[string]interface{}{"x-delayed-type": "direct"})
+	err := mq.Channel.ExchangeDeclare(EXCHANGE_USER_DELAY, "direct",
+		false, false, false, false, nil)
 	if err != nil {
-		return fmt.Errorf("Exchange error")
+		return fmt.Errorf("DelayExchange error", err)
 	}
+	//qs := fmt.Sprintf("%s", QUEUE_NEWUSER)
 	qs := fmt.Sprintf("%s", QUEUE_NEWUSER)
-	err = mq.DecQueueAndBind(qs, ROUTER_KEY_USERREG, EXCHANGE_USER)
+	args := map[string]interface{}{}
+	err = mq.DecQueueAndBindWithArgs(qs, ROUTER_KEY_USERREG, EXCHANGE_USER_DELAY, args)
 	if err != nil {
 		return fmt.Errorf("Delay Queue Bind error", err)
 	}

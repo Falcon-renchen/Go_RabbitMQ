@@ -14,6 +14,7 @@ import (
 var MyCron *cron.Cron
 
 func initCron() error {
+	//在20s-30s时间 status=2，定时清理订单
 	MyCron = cron.New(cron.WithSeconds()) //支持秒级定时器
 	_, err := MyCron.AddFunc("0/3 * * * * *", FailTrans)
 	if err != nil {
@@ -30,7 +31,7 @@ func initCron() error {
 	return nil
 }
 
-//这里 修改点：status=0
+//这里 修改点：status=0      status=2 交易超时
 const FailSql = "update translog set STATUS=2 where TIMESTAMPDIFF(SECOND,updatetime,now())>20 and STATUS=0"
 const BackSql = "select tid, `from`,money from translog  where status=2 and isback=0 limit 10   "
 const resendSql = "select * from translog where status=0 and TIMESTAMPDIFF(SECOND,updatetime,now())<=8 "
@@ -77,8 +78,9 @@ func clearTx(tx *sqlx.Tx) { //清理事务
 	islock = false
 }
 
-//还钱
+//还钱 isback
 func BackMoney() {
+	//加锁，防止脏读
 	if islock {
 		log.Println("locked.return.......")
 		return
@@ -93,7 +95,7 @@ func BackMoney() {
 
 	rows, err := tx.Queryx(BackSql)
 	if err != nil {
-		tx.Rollback()
+		tx.Rollback() //回滚中止业务
 		return
 	}
 	defer rows.Close()
