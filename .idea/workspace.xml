@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c48377e-fc68-4d41-978d-035a13651b71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq10_demo/Lib/DLXInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/AppInit/DBInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/AppInit/MQInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Lib/MQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Lib/QueueInit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Lib/ReSender.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/a.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq11_demo/b.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/MQInit.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/MQInit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq10_demo/Lib/MQ.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq10_demo/Lib/MQ.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq10_demo/Lib/QueueInit.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq10_demo/Lib/QueueInit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/MQInit.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/MQInit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq11_demo/Trans/a/check.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq11_demo/Trans/a/check.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/rabbitmq11_demo" />
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql" />
       <recent name="$PROJECT_DIR$/rabbitmq10_demo" />
       <recent name="$PROJECT_DIR$/rabbitmq06_demo/z-run product &amp;&amp; consumer" />
@@ -165,11 +155,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1173" y="194" key="#go_build_server.go_(1)/0.23.1920.1057@0.23.1920.1057" timestamp="1619408661352" />
-    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1621928706381">
+    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1621947434917">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="607" y="59" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615015030945" />
-    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1621928706381" />
+    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1621947434917" />
     <state width="1878" height="250" key="GridCell.Tab.0.bottom" timestamp="1621773279966">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
