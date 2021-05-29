@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c48377e-fc68-4d41-978d-035a13651b71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rabbitmq12_demo/AppInit/123/erw.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/DBInit.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq10_demo/AppInit/DBInit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/DBInit.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq11_demo/AppInit/DBInit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq12_demo/AppInit/DBInit.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq12_demo/AppInit/DBInit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq12_demo/AsyncOrder/Server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq12_demo/AsyncOrder/Server/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -69,13 +66,22 @@
       <recent name="$PROJECT_DIR$/rabbitmq10_demo/z-exec sql" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Go Build.go build Go_RabbitMQ/rabbitmq12_demo/AppInit/test">
     <configuration name="go build DBInit.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_RabbitMQ" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/rabbitmq12_demo/AppInit/DBInit.go" />
       <package value="Go_RabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Go_RabbitMQ/rabbitmq12_demo/AppInit/123" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_RabbitMQ" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/rabbitmq12_demo/AppInit/123/erw.go" />
+      <package value="Go_RabbitMQ/rabbitmq12_demo/AppInit/123" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -88,20 +94,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_RabbitMQ" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/rabbitmq12_demo/AsyncOrder/Client/client.go" />
-      <package value="Go_RabbitMQ" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go_RabbitMQ" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/rabbitmq12_demo/AsyncOrder/Server/server.go" />
+      <filePath value="$PROJECT_DIR$/rabbitmq12_demo/AppInit/test/test.go" />
       <package value="Go_RabbitMQ" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -111,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Go Build.go build Go_RabbitMQ/rabbitmq12_demo/AppInit/test" />
+        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.go build Go_RabbitMQ/rabbitmq12_demo/AppInit/123" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Go Build.go build DBInit.go" />
-        <item itemvalue="Go Build.go build client.go" />
-        <item itemvalue="Go Build.go build server.go" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -146,10 +145,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="840" y="199" key="#Custom_Plugin_Repositories/0.23.1920.1057@0.23.1920.1057" timestamp="1619362409946" />
-    <state x="677" y="194" key="#go_build_DBInit.go" timestamp="1622305982001">
+    <state x="677" y="194" key="#go_build_DBInit.go" timestamp="1622306970972">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="677" y="194" key="#go_build_DBInit.go/0.23.1920.1057@0.23.1920.1057" timestamp="1622305982001" />
+    <state x="677" y="194" key="#go_build_DBInit.go/0.23.1920.1057@0.23.1920.1057" timestamp="1622306970972" />
     <state x="508" y="194" key="#go_build_Go_RabbitMQ/rabbitmq09_demo/UserReg/cmd" timestamp="1619502896567">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -166,51 +165,51 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1173" y="194" key="#go_build_server.go_(1)/0.23.1920.1057@0.23.1920.1057" timestamp="1619408661352" />
-    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1622302800782">
+    <state x="809" y="66" key="CommitChangelistDialog2" timestamp="1622306348355">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="607" y="59" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615015030945" />
-    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1622302800782" />
-    <state width="1878" height="391" key="GridCell.Tab.0.bottom" timestamp="1622306064458">
+    <state x="809" y="66" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1622306348355" />
+    <state width="1878" height="309" key="GridCell.Tab.0.bottom" timestamp="1622307136538">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615004724067" />
-    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1622306064458" />
-    <state width="1878" height="391" key="GridCell.Tab.0.center" timestamp="1622306064457">
+    <state width="1878" height="309" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1622307136538" />
+    <state width="1878" height="309" key="GridCell.Tab.0.center" timestamp="1622307136537">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="1878" height="391" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1622306064457" />
-    <state width="1878" height="391" key="GridCell.Tab.0.left" timestamp="1622306064457">
+    <state width="1878" height="309" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1622307136537" />
+    <state width="1878" height="309" key="GridCell.Tab.0.left" timestamp="1622307136537">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="1878" height="391" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1622306064457" />
-    <state width="1878" height="391" key="GridCell.Tab.0.right" timestamp="1622306064458">
+    <state width="1878" height="309" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1622307136537" />
+    <state width="1878" height="309" key="GridCell.Tab.0.right" timestamp="1622307136538">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="181" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1615004724066" />
-    <state width="1878" height="391" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1622306064458" />
-    <state width="1735" height="433" key="GridCell.Tab.1.bottom" timestamp="1622305505643">
+    <state width="1878" height="309" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1622307136538" />
+    <state width="1735" height="433" key="GridCell.Tab.1.bottom" timestamp="1622306491668">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1614957565404" />
-    <state width="1735" height="433" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1622305505643" />
-    <state width="1735" height="433" key="GridCell.Tab.1.center" timestamp="1622305505643">
+    <state width="1735" height="433" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1622306491668" />
+    <state width="1735" height="433" key="GridCell.Tab.1.center" timestamp="1622306491668">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1614957565404" />
-    <state width="1735" height="433" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1622305505643" />
-    <state width="1735" height="433" key="GridCell.Tab.1.left" timestamp="1622305505642">
+    <state width="1735" height="433" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1622306491668" />
+    <state width="1735" height="433" key="GridCell.Tab.1.left" timestamp="1622306491667">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1614957565402" />
-    <state width="1735" height="433" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1622305505642" />
-    <state width="1735" height="433" key="GridCell.Tab.1.right" timestamp="1622305505643">
+    <state width="1735" height="433" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1622306491667" />
+    <state width="1735" height="433" key="GridCell.Tab.1.right" timestamp="1622306491668">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1614957565404" />
-    <state width="1735" height="433" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1622305505643" />
+    <state width="1735" height="433" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1622306491668" />
     <state x="790" y="235" key="SettingsEditor" timestamp="1619364114494">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

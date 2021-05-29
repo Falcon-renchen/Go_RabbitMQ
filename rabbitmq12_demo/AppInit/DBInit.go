@@ -18,7 +18,7 @@ func DBInit() error {
 	db.SetMaxIdleConns(20)
 	db.SetMaxIdleConns(10)
 
-	return nil
+	return err
 }
 
 func GetDB() *sqlx.DB {
