@@ -5,7 +5,6 @@ import (
 	"Go_RabbitMQ/rabbitmq12_demo/AsyncOrder/models"
 	"Go_RabbitMQ/rabbitmq12_demo/Lib"
 	"encoding/json"
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
@@ -14,15 +13,13 @@ import (
 import "github.com/bwmarrin/snowflake"
 
 func getID() (string, error) {
-	//雪花算法生成id
+	//雪花算法设计id
 	node, err := snowflake.NewNode(1)
 	if err != nil {
-		fmt.Println(err)
 		return "", err
 	}
-	//加年月日，以便有规律的统计和分析
+	//加年月日，方便统计和分析
 	return time.Now().Format("20060102") + node.Generate().String(), nil
-
 }
 
 //跨域设置，无技术含量
@@ -40,14 +37,12 @@ func CrosMiddleware() gin.HandlerFunc {
 
 	}
 }
-
 func main() {
 	router := gin.Default()
 	router.Use(CrosMiddleware())
 	//用户请求下单
 	router.Handle("POST", "/", func(context *gin.Context) {
 		id, err := getID()
-
 		//发送MQ
 		req := &models.RequestModel{}
 		_ = context.BindJSON(req)
@@ -59,15 +54,11 @@ func main() {
 		if err != nil {
 			log.Println(err)
 		}
-
 		if err != nil {
-			context.JSON(400, gin.H{
-				"error": "order fail",
-			})
+			context.JSON(400, gin.H{"error": "order fail"})
 		} else {
 			context.JSON(200, gin.H{"orderno": id})
 		}
-
 	})
 
 	router.Handle("GET", "/result", func(context *gin.Context) {
@@ -83,7 +74,6 @@ func main() {
 		}
 
 	})
-
 	c := make(chan error)
 	go func() {
 		err := AppInit.DBInit()
@@ -97,14 +87,13 @@ func main() {
 			c <- err
 		}
 	}()
-
 	go func() {
 		err := Lib.OrderInit() //初始化
 		if err != nil {
 			c <- err
 		}
 	}()
+
 	err := <-c
 	log.Fatal(err)
-
 }
